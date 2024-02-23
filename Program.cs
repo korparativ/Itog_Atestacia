@@ -14,3 +14,12 @@ for (int i = 0; i < array.Length; i++)
         j++;
 }
 string[] arr = new string[j];
+j = 0;
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        arr[j] = array[i];
+        j++;
+    }
+}
